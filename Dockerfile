@@ -1,4 +1,4 @@
-FROM klakegg/hugo:0.101.0-alpine AS build
+FROM klakegg/hugo:0.101.0-ext-alpine AS build
 
 # The Hugo version
 COPY . /site
