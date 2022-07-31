@@ -1,7 +1,7 @@
 ---
 title: Jinja2 filtration bypass
 date: 2022-07-30 09:00:00
-author: cutsom
+author: cotsom
 link: https://github.com/cotsom
 tags:
     - python
