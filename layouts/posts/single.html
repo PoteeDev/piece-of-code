@@ -16,7 +16,13 @@
           {{ if (isset .Params "author")}}
           <div>
             <i class="far fa-user"></i>
-            <a href='{{ .Params.Link }}'>{{ .Params.Author }}</a>
+            {{ .Params.Author }}
+            {{if .Params.Tg}}
+            <a class="icon" href='{{ .Params.Tg }}'><i class="fab fa-telegram"></i></a>
+            {{end}}
+            {{if .Params.Github}}
+            <a class="icon" href='{{ .Params.Github }}'><i class="fab fa-github"></i></a>
+            {{end}}
           </div>
           {{ end }}
           <div class="postdate">

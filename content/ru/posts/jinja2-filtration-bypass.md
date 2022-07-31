@@ -2,7 +2,8 @@
 title: Jinja2 filtration bypass
 date: 2022-07-30 09:00:00
 author: cotsom
-link: https://github.com/cotsom
+github: https://github.com/cotsom
+tg: http://t.me/cotsom
 tags:
     - python
     - xss
@@ -16,7 +17,7 @@ keywords:
 ---
 
 ## Санитизация в jinja2
-Начать стоит с того, что шаблонизатор [jinja](https://ru.wikipedia.org/wiki/Jinja) уже умеет автоматически экранировать все запрещенные символы, попадающие на страницу, тем самым защищая пользователя от [XSS](https://habr.com/ru/post/511318/) уязвимости.
+Начать стоит с того, что шаблонизатор [jinja](https://ru.wikipedia.org/wiki/Jinja) уже умеет автоматически экранировать все запрещенные символы, попадающие на страницу, тем самым защищая пользователя от [XSS- уязвимости](https://habr.com/ru/post/511318/).
 
 Отключить санитизацию символов можно при помощи блока 
 
