@@ -1,6 +1,6 @@
 baseURL: 'http://articles.potee.ru/'
 languageCode: 'ru'
-title: Piece of Script
+title: Piece of Code
 theme: cactus
 googleAnalytics: "G-SS325GBRP9"
 DefaultContentLanguage: ru

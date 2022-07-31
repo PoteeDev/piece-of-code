@@ -29,11 +29,11 @@ jobs:
         with:
           context: .
           push: true
-          tags: explabs/piece-of-script:latest
+          tags: explabs/piece-of-code:latest
 
       - name: Update repo description
         uses: peter-evans/dockerhub-description@v2
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
-          repository: explabs/piece-of-script
+          repository: explabs/piece-of-code
