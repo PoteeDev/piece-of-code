@@ -1,4 +1,4 @@
-baseURL: 'http://articles.potee.ru/'
+baseURL: 'https://articles.potee.ru/'
 languageCode: 'ru'
 title: Piece of Code
 theme: cactus

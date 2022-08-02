@@ -20,12 +20,13 @@ Using indents:
 
 
 Fenced code block:
-
 ```
 text
 text
 <tag>
 ```
+
+![computer](images/computer.png)
 
 Fenced code block with language (lineNumbersInTable = false):
 
