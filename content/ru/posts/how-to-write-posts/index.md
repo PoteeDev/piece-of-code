@@ -75,6 +75,11 @@ keywords:
 - keywords - Список ключевых слов для поисковых роботов
 
 ## Загрузка статьи
+### Предпросмотр
+[Установка hugo](https://gohugo.io/getting-started/installing/)
+```
+hugo server
+```
 ### Сохранение изменений
 ```
 git add <файлы>
