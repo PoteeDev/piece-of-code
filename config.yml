@@ -1,4 +1,4 @@
-baseURL: 'https://articles.potee.ru/'
+baseURL: 'https://blog.potee.ru/'
 languageCode: 'ru'
 title: Piece of Code
 theme: cactus
@@ -15,16 +15,16 @@ languages:
         url: /
         weight: 1
       - name: "Все Статьи"
-        url: "/posts"
+        url: "/posts/"
         weight: 2
       - name: "Категории"
-        url: "/categories"
+        url: "/categories/"
         weight: 3
       - name: "Тэги"
-        url: "/tags"
+        url: "/tags/"
         weight: 4
       - name: "О Проекте"
-        url: "/about"
+        url: "/about/"
         weight: 5
 
     params:
